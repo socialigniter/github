@@ -1,0 +1,1 @@
+<li><a class="sidebar_icon" href="<?= base_url() ?>home/github"><img src="<?= $this_module_assets ?>github_24.png"><span>Github</span></a></li>
