@@ -11,9 +11,11 @@
 * Source: 		http://github.com/socialigniter/github
 *
 * Description: 	Install values for Github App for Social Igniter 
-
+*/
 /* Settings */
-$config['github_settings']['enabled']				= 'TRUE';
-$config['github_settings']['date_style']			= 'SIMPLE';
-$config['github_settings']['comments_allow']		= 'TRUE';
+$config['github_settings']['widgets'] 			= 'FALSE';
+$config['github_settings']['categories'] 		= 'TRUE';
+$config['github_settings']['enabled']			= 'TRUE';
+$config['github_settings']['date_style']		= 'SIMPLE';
+$config['github_settings']['comments_allow']	= 'TRUE';
 $config['github_settings']['comments_per_page']	= '5';
