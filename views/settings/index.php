@@ -4,6 +4,7 @@
 	<div class="content_inner_top_right">
 		<h3>App</h3>
 		<p><?= form_dropdown('enabled', config_item('enable_disable'), $settings['github']['enabled']) ?></p>
+		<p><a href="<?= base_url() ?>api/<?= $this_module ?>/uninstall" id="app_uninstall" class="button_delete">Uninstall</a></p>
 	</div>	
 
 	<h3>Display</h3>
@@ -28,7 +29,7 @@
 	<?= form_dropdown('comments_per_page', config_item('amount_increments_five'), $settings['github']['comments_per_page']) ?>
 	</p>
 
-	<input type="hidden" name="module" value="github">
+	<input type="hidden" name="module" value="<?= $this_module ?>">
 
 	<p><input type="submit" name="save" value="Save" /></p>
 
