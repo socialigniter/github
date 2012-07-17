@@ -2,20 +2,29 @@
 /**
 * Name:			Social Igniter : Github : Install
 * Author: 		Brennan Novak
-* 		  		contact@social-igniter.com
-*         		@brennannovak
+* 		  		hi@brennannovak.com
 *          
-* Created: 		Brennan Novak
-*
 * Project:		http://social-igniter.com/
-* Source: 		http://github.com/socialigniter/github
 *
-* Description: 	Install values for Github App for Social Igniter 
+* Description: 	Installer values for Github for Social Igniter 
 */
+
 /* Settings */
-$config['github_settings']['widgets'] 			= 'FALSE';
-$config['github_settings']['categories'] 		= 'TRUE';
-$config['github_settings']['enabled']			= 'TRUE';
-$config['github_settings']['date_style']		= 'SIMPLE';
-$config['github_settings']['comments_allow']	= 'TRUE';
-$config['github_settings']['comments_per_page']	= '5';
+$config['github_settings']['widgets']				= 'TRUE';
+$config['github_settings']['categories']			= 'TRUE';
+$config['github_settings']['enabled']				= 'TRUE';
+$config['github_settings']['client_id']	 			= '';
+$config['github_settings']['client_secret'] 		= '';
+$config['github_settings']['social_connection'] 	= 'TRUE';
+$config['github_settings']['social_login'] 			= 'TRUE';
+$config['github_settings']['login_redirect']		= 'home/';
+$config['github_settings']['connections_redirect']	= 'settings/connections/';
+
+/* Sites */
+$config['github_sites'][] = array(
+	'url'		=> 'http://github.com/', 
+	'module'	=> 'github',
+	'type' 		=> 'remote', 
+	'title'		=> 'Github', 
+	'favicon'	=> 'http://github.com/favicon.ico'
+);

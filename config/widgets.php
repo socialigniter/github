@@ -1,14 +1,24 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 /**
-* Name:			Social Igniter : Module Template : Widgets
+* Name:			Social Igniter : Github : Widgets
 * Author: 		Brennan Novak
-* 		  		contact@social-igniter.com
-*         		@brennannovak
+* 		  		hi@brennannovak.com
 *          
 * Project:		http://social-igniter.com/
-* Source: 		http://github.com/socialigniter/module-template
 *
-* Description: 	Widgets in core install of Social Igniter
+* Description: 	Installer values for Github for Social Igniter 
 */
 
-$config['github_widgets'] = FALSE;
+$config['github_widgets'][] = array(
+	'regions'	=> array('sidebar','content'),
+	'widget'	=> array(
+		'module'	=> 'github',
+		'name'		=> 'Recent Data',
+		'method'	=> 'run',
+		'path'		=> 'widgets_recent_data',
+		'multiple'	=> 'FALSE',
+		'order'		=> '1',
+		'title'		=> 'Recent Data',
+		'content'	=> ''
+	)
+);

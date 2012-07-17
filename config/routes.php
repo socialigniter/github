@@ -1,12 +1,11 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
-* Name:		Social Igniter : Module Template : Routes
-* Author: 	Brennan Novak
-* 		  	contact@social-igniter.com
+* Name:			Social Igniter : Github : Routes
+* Author: 		Brennan Novak
+* 		  		hi@brennannovak.com
+*          
+* Project:		http://social-igniter.com/
 *
-* Project:	http://social-igniter.com/
-* Source: 	http://github.com/socialigniter/module-template
-*
-* Standard installed routes for Module Template. 
+* Description: 	URI Routes for Github for Social Igniter 
 */
 $route['github'] 			= 'github';

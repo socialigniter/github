@@ -1,6 +1,6 @@
 <h3>Recent</h3>
 
-<p>Is a <b>core</b> 'activity feed' of items pertaining to this module that can write into your code.</p>
+<p>This is the 'activity feed' of items pertaining to this module that can write into your code.</p>
 
 <h3>Custom</h3>
 
@@ -8,7 +8,7 @@
 
 <p>The HTML for this file is located at:</p>
 
-<pre>/application/modules/module_template/views/home/custom</pre>
+<pre>/application/modules/github/views/home/custom</pre>
 
 <h3>Manage</h3>
 
